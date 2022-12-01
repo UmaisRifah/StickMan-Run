@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "BubbleGum";
+  src: url(../font/bubblegum.ttf);
+}
+
+body {
+  background-color: #3c508b;
+  font-family: "BubbleGum", sans-serif;
+  /* font-size: large; */
+}
+
+h1 {
+  font-family: "BubbleGum", "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 100px;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+.container1 {
+  width: 90vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 50%;
+  /* right: 50%; */
+  border-radius: 5px;
+}
+
+.playButton {
+  border: none;
+  font-size: 45px;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  font-family: "BubbleGum", sans-serif;
+  border-radius: 25%;
+}
+.playButton:hover {
+  background-color: white;
+  color: black;
+  font-family: "BubbleGum", sans-serif;
+}
